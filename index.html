@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .c1{
+                width: 300px;
+                height: 25px;
+                color: brown;
+                font-size: medium;
+                font-style: initial;
+            }
+            fieldset{
+                background:#ffffcc;
+                padding: 15px;
+                border: 2px blue dotted;
+                margin-bottom: 5px;
+            }
+            legend{
+                background: #EEE;
+                padding: 5px;
+                border: 2px black outset ;
+            }
+/*            input ,label,select{display: block }*/
+            input text,label{width: 300px ; height: 25px;display: block}
+            
+        </style>
+        
+    </head>
+    <body>
+       <form name="form1" action="p.php" method="post">
+        <fieldset>
+            <legend> Personal information </legend>
+            
+            <label>UserNamr</label>
+            <input class="c1" type="text" placeholder="input your user name"  >
+           
+            <label>Password</label>
+            <input class="c1" type="password">
+            
+            <label>E Mail</label>
+            <input class="c1" type="email" >
+            
+            <label>Phone Number</label>
+            <input class="c1" type="tel">
+           
+             
+        </fieldset>
+           
+        <fieldset>
+            <legend> Select One </legend>
+            <label>Catogery</label>
+            <input type="radio" name="lab1"> student <br>
+            <input type="radio" name="lab1"> Engineer<br>
+            <input type="radio" name="lab1"> manager<br>
+            <input type="radio" name="lab1"> HR
+            <hr> 
+            <label>Catogery</label>
+            <input type="radio" name="lab2"> student <br>
+            <input type="radio" name="lab2"> Engineer<br>
+            <input type="radio" name="lab2"> manager<br>
+            <input type="radio" name="lab2"> HR
+            <hr>
+            <label>Catogery</label>
+            <input type="radio" name="lab3"> student <br>
+            <input type="radio" name="lab3"> Engineer<br>
+            <input type="radio" name="lab3"> manager<br>
+            <input type="radio" name="lab3"> HR
+            
+               
+        </fieldset>
+           
+        </form>
+    </body>
+</html>
